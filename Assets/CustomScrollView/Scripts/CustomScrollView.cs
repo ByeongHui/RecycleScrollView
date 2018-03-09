@@ -97,7 +97,7 @@ public class CustomScrollView : MonoBehaviour {
 	private ScrollRect _scrollRect = null;
 
 
-	public Vector3 preContentPos = Vector3.zero;
+	private Vector3 preContentPos = Vector3.zero;
 
 
 	/// <summary>
@@ -174,6 +174,7 @@ public class CustomScrollView : MonoBehaviour {
 	/// <summary>
 	/// 현재 보여지고 있는 아이템들의 대한 인덱스 정보를 저장할 리스트.
 	/// </summary>
+	[HideInInspector]
 	public List<int> itemlistIndex = new List<int>();
 
 
