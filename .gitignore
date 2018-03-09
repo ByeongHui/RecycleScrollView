@@ -4,6 +4,9 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+
+# 2018.1.b9 이후 UnityPackageManager -> Package 로 변경 됨.
+/[Pp]ackage
 /[Uu]nityPackageManager
 /[Pp]rojectSettings
 
